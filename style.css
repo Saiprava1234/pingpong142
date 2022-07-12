@@ -1,0 +1,166 @@
+/* Link of all the font families that I like */
+
+@import url('https://fonts.googleapis.com/css2?family=Acme&family=Blaka&family=Fredoka+One&family=Josefin+Sans:ital,wght@1,700&family=Koulen&family=Lobster&family=Lora:ital,wght@1,500&family=Macondo&family=Merriweather:ital,wght@1,700&family=Pacifico&family=Passion+One&family=Permanent+Marker&family=Righteous&family=Source+Code+Pro&display=swap');
+
+/* Design code for the Webpage */
+
+body{
+    background-size: cover;
+}
+.heading
+{
+    width:100%;
+    text-align: left;
+}
+.heading h2{
+    display: inline;
+    font-family: 'Acme', sans-serif;
+    color: floralwhite;
+    animation-name: textt;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+}
+.heading button{
+    float: right;
+    border:1px solid rgb(0, 9, 188);
+    animation-name: bt;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#start{
+    font-size: 27px;
+    font-family: 'Blaka', cursive;
+    color: black;
+    animation-name: startt;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#start:hover{
+    font-size: 27px;
+    font-family: 'Blaka', cursive;
+    color: rgb(255, 255, 255);
+    background-color: rgb(230, 0, 123);
+    border: 1px solid rgb(142, 0, 76);
+    animation-name: starttt;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#start:active{
+    font-size: 27px;
+    font-family: 'Blaka', cursive;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 238, 0);
+    border: 1px solid rgb(75, 75, 0);
+    animation-name: stattt;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+#inst{
+    font-family: 'Righteous', cursive;
+    font-size: 16px;
+}
+#status{
+    font-size: 19px;
+    font-weight: bold;
+    box-shadow: 0px 0px 16px white;
+    color: black;
+}
+ol{
+    width: 100%;
+    color: black;
+    font-size:  18px;
+    text-align:  left;
+    display:inline-block;
+}
+li{
+    margin-bottom: 5px;
+}
+#int{
+    color: black;
+    text-decoration: underline;
+}
+#restart{
+    font-size: 27px;
+    font-weight: bold;
+    background-color: rgb(128, 216, 240);
+    font-family: 'Macondo', cursive;
+    color: rgb(0, 46, 69);
+    animation-name: restart;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: 3px solid rgb(11, 11, 42);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#restart:hover{
+    font-size: 27px;
+    font-weight: bold;
+    background-color: rgb(0, 46, 69);
+    font-family: 'Macondo', cursive;
+    color: rgb(128, 216, 240);
+    animation-name: restart;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: 3px solid rgb(71, 71, 255);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#restart:active{
+    font-size: 27px;
+    font-weight: bold;
+    background-color: rgb(0, 81, 76);
+    font-family: 'Macondo', cursive;
+    color: rgb(0, 255, 238);
+    animation-name: restart;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    border: 3px solid rgb(63, 63, 133);
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.copy_right_footer{
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+    background-color: antiquewhite;
+    color: maroon;
+    line-height: 1.7;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+video{
+    border: 3px solid white;
+    border-radius: 10px;
+    padding: 0px;
+    
+}
+/* All the Animations! */
+
+@keyframes startt{
+    from{box-shadow: 0px 0px 22px rgb(0, 203, 0);}
+    to{box-shadow: 0px 0px 22px rgb(0, 153, 0);}
+}
+@keyframes starttt{
+    from{box-shadow: 0px 0px 25px rgb(255, 85, 176);}
+    to{box-shadow: 0px 0px 25px rgb(188, 0, 100);}
+}
+@keyframes stattt{
+    from{box-shadow: 0px 0px 25px yellow;}
+    to{box-shadow: 0px 0px 25px rgb(123, 123, 0);}
+}
+@keyframes bt{
+    from{box-shadow: 0px 0px 10px dodgerblue;}
+    to{box-shadow: 0px 0px 10px rgb(0, 81, 255);}
+}
+@keyframes restart{
+    from{box-shadow: 0px 0px 15px rgb(30, 236, 255);}
+    to{box-shadow: 0px 0px 15px rgb(0, 81, 255);}
+}
+@keyframes textt{
+    from{text-shadow: 0px 0px 10px rgb(77, 53, 0);
+        color: white;}
+    to{text-shadow: 0px 0px 10px rgb(255, 234, 0);
+        color: black;}
+}
